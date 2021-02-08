@@ -8,6 +8,7 @@
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/tw_nombre"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Introduce tu nombre y apellido:"
@@ -23,6 +24,12 @@
         android:inputType="textPersonName"
         android:hint="Introduce tu nombre y apellido"/>
 
+    <EditText
+        android:id="@+id/et_pass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:hint="Introduce tu contraseña"/>
     <Button
         android:id="@+id/b_mostrar_nombre"
         android:enabled="false"
